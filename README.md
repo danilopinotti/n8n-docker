@@ -9,7 +9,7 @@ This project is made on top of [official n8n docker-compose file](https://github
 To start n8n simply start docker-compose by executing the following
 command in the current folder.
 
-**IMPORTANT:** But before you do that change the default users and passwords in the [`.env`](.env) file!
+**IMPORTANT:** But before you do that, you need to duplicate the [`.env.example`](.env.example) file as `.env`, and then, change the default users and passwords in this `.env` file!
 
 ```
 docker-compose up -d
