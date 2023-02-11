@@ -1,4 +1,4 @@
-# n8n with PostgreSQL and Worker and auto SSL
+# N8N with PostgreSQL, Worker and auto SSL
 
 Starts n8n with PostgreSQL as database, and the Worker as a separate container. In addition, this environment auto configures the SSL.
 
@@ -36,14 +36,14 @@ docker-compose stop
 
 ## Production
 
-To use in production, you need only to set the `STAGE` entry as `production` in the `.env` file, then, restarts the environment
+To use in production, you only need to set the `STAGE` entry as `production` in the `.env` file and then restart the environment.
 
 In the `.env` file:
 ```
 STAGE=production
 ```
 
-Commands after editing:
+Commands to run after editing:
 ```shell
 docker-compose stop
 docker-compose up -d
